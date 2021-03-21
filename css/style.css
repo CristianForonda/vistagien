@@ -122,11 +122,13 @@ hr {
 }
 /* Home Style */
 header {
-	background: url(../img/fondo5.png) no-repeat bottom center;
+	background-image: url(../img/fondo6.jpeg);
+	height: 100%;
+  	text-align: center;
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
-	height: 700px;
+	
 }
 header p {
 	color: rgba(255,255,255,0.5);
