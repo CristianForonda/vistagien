@@ -16,6 +16,12 @@ h2 {
 	margin-bottom: 20px;
 	color: #666;
 }
+@media only screen and (max-width: 600px) {
+	h2 {
+	
+		line-height: 38px;
+	}
+  }
 h3 {
 	font-size: 16px;
 	font-weight: 600;
@@ -129,6 +135,11 @@ header {
 	position: relative;
 	
 }
+@media only screen and (max-width: 600px) {
+	header {
+		background-image: url(../img/movil.png);
+	}
+  }
 header p {
 	color: rgba(255,255,255,0.5);
 	font-size: 18px;
@@ -456,3 +467,15 @@ label {
 }
 }
 
+#logo1{
+	margin-left: 92%;
+	margin-top: -150px;
+}
+#logo2{
+	margin-left: 101%;
+	margin-top: -186px;
+}
+#logo3{
+	margin-left: 108%;
+	margin-top: -230px;
+}
